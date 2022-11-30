@@ -19,6 +19,6 @@ export default async function Mail(req: NextApiRequest, res: NextApiResponse) {
     text: content,
     html: content.replace(/\r\n/g, "<br>"),
   };
-  mail.send(data);
+  await mail.send(data);
   res.status(200).json({ status: "OK" });
 }
