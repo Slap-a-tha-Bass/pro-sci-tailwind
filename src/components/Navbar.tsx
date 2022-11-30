@@ -16,6 +16,11 @@ export default function Navbar() {
   const navigation = [
     { name: "Home", href: "/", current: pathname === "/" ? true : false },
     {
+      name: "About",
+      href: "/about",
+      current: pathname === "/about" ? true : false,
+    },
+    {
       name: "Team",
       href: "/team",
       current: pathname === "/team" ? true : false,
@@ -24,11 +29,6 @@ export default function Navbar() {
       name: "Alumni",
       href: "/alumni",
       current: pathname === "/alumni" ? true : false,
-    },
-    {
-      name: "About",
-      href: "/about",
-      current: pathname === "/about" ? true : false,
     },
     {
       name: "Gallery",
