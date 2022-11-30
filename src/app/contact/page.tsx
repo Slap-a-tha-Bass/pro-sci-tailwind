@@ -22,7 +22,7 @@ export default function Contact() {
     if (result.status === "OK") {
       router.push("/thank-you");
     } else {
-      router.push("/error");
+      console.error(result);
     }
   }
   return (
