@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePage() {
   const keyStr =
@@ -13,10 +14,53 @@ export default function HomePage() {
       triplet(0, r, g) + triplet(b, 255, 255)
     }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`;
   return (
-    <main className="relative">
+    <main className="relative grid grid-cols-1 h-full">
+      <div className="flex justify-center items-start sm:pt-16 sm:px-8">
+        <div className="p-8 sm:p-16">
+          <ul className="text-xl sm:text-4xl text-white leading-relaxed">
+            <li>We are here to make</li>
+            <li className="pt-2 ml-4">
+              <span className="text-sky-700">pro-</span>
+              gress in <span className="text-sky-700">SCI</span> research,
+            </li>
+            <li className="pt-2 ml-4">
+              <span className="text-sky-700">pro-</span>pose good ideas,
+            </li>
+            <li className="pt-2 ml-4">
+              <span className="text-sky-700">pro-</span>vide solutions,
+            </li>
+            <li className="pt-2 ml-4">
+              <span className="text-sky-700">pro-</span>mote impactful{" "}
+              <span className="text-sky-700">SCI</span>ence,
+            </li>
+            <li className="pt-2 ml-4">
+              <span className="text-sky-700">pro-</span>hibit misinformation,
+            </li>
+            <li className="pt-2 ml-4">
+              <span className="text-sky-700">pro-</span>tect{" "}
+              <span className="text-sky-700">SCI</span>entist, and
+            </li>
+            <li className="pt-2 ml-4">
+              <span className="text-sky-700">pro-</span>long the lives of
+              individuals with <span className="text-sky-700">SCI</span>.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="mx-auto">
+        <div className="flex flex-col mx-auto text-2xl sm:text-3xl text-white px-4">
+          <p>Interested in collaborating or joining the team?</p>
+          <Link
+            href="/contact"
+            className="flex mx-auto mt-8 w-32 rounded-lg justify-center text-4xl sm:text-5xl pt-0 pb-2 bg-sky-700 animate-pulse"
+          >
+            &rarr;
+          </Link>
+        </div>
+      </div>
       <Image
-        className="sm:py-8 h-60 sm:h-screen w-screen object-contain"
-        src="/images/electric.svg"
+        className="absolute sm:py-2 h-120 sm:h-full w-screen object-contain opacity-20 sm:opacity-10"
+        src="/images/electric.png"
         alt="Electric blue"
         width={1920}
         height={1080}
