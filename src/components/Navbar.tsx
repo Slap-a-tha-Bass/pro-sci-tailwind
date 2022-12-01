@@ -42,7 +42,7 @@ export default function Navbar() {
     },
     {
       name: "Research",
-      href: "#",
+      href: "/research",
       current: pathname === "/research" ? true : false,
     },
     {

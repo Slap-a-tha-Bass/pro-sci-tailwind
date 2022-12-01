@@ -9,6 +9,7 @@ export default function Footer() {
       { name: "Alumni", href: "/alumni" },
       { name: "Gallery", href: "/gallery" },
       { name: "Contact", href: "/contact" },
+      { name: "Research", href: "/research" },
       { name: "Careers", href: "#" },
       {
         name: "Belford Center",
