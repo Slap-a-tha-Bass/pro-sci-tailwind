@@ -3,6 +3,13 @@ import Link from "next/link";
 export default function Footer() {
   const navigation = {
     main: [
+      { name: "Home", href: "/" },
+      { name: "About", href: "/about" },
+      { name: "Team", href: "/team" },
+      { name: "Alumni", href: "/alumni" },
+      { name: "Gallery", href: "/gallery" },
+      { name: "Contact", href: "/contact" },
+      { name: "Careers", href: "#" },
       {
         name: "Belford Center",
         href: "https://wexnermedical.osu.edu/neurological-institute/neuroscience-research-institute/research-centers/the-belford-center-for-spinal-cord-injury",
@@ -11,12 +18,6 @@ export default function Footer() {
         name: "PM&R",
         href: "https://medicine.osu.edu/departments/physical-medicine-rehabilitation",
       },
-      { name: "Careers", href: "#" },
-      { name: "Team", href: "#/team" },
-      { name: "Alumni", href: "/alumni" },
-      { name: "About", href: "/about" },
-      { name: "Gallery", href: "/gallery" },
-      { name: "Contact", href: "/contact" },
     ],
     social: [
       {
@@ -32,7 +33,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gradient-to-b from-slate-900 to-black">
+    <footer className="bg-gradient-to-b from-slate-900 to-black mt-10">
       <div className="mx-auto max-w-7xl overflow-hidden py-8 px-4 sm:px-6 lg:px-8">
         <nav
           className="-mx-5 -my-2 flex flex-wrap justify-center"

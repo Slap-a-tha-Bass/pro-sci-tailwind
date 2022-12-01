@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ArrowLongRight from "./icons/arrow-long-right";
 
 export default function HomePage() {
   const keyStr =
@@ -15,7 +16,7 @@ export default function HomePage() {
     }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`;
   return (
     <main className="relative grid grid-cols-1 h-full">
-      <div className="flex justify-center items-start sm:pt-16 sm:px-8">
+      <div className="flex justify-center items-start pt-4 px-4 sm:px-8">
         <div className="p-8 sm:p-16">
           <ul className="text-xl sm:text-4xl text-white leading-relaxed">
             <li>We are here to make</li>
@@ -47,14 +48,14 @@ export default function HomePage() {
           </ul>
         </div>
       </div>
-      <div className="mx-auto">
-        <div className="flex flex-col mx-auto text-2xl sm:text-3xl text-white px-4">
+      <div className="mx-auto -mt-4 bg-gray-900 p-6 rounded-lg z-10 max-w-xs h-56 sm:max-w-lg sm:h-full">
+        <div className="flex flex-col text-xl sm:text-3xl text-white px-10">
           <p>Interested in collaborating or joining the team?</p>
           <Link
             href="/contact"
-            className="flex mx-auto mt-8 w-32 rounded-lg justify-center text-4xl sm:text-5xl pt-0 pb-2 bg-sky-700 animate-pulse"
+            className="flex mx-auto mt-8 w-32 rounded-xl justify-center items-center text-4xl sm:text-5xl p-2 bg-sky-700 shadow-white animate-pulse hover:bg-sky-900 hover:animate-none hover:shadow-whitelg"
           >
-            &rarr;
+            <ArrowLongRight />
           </Link>
         </div>
       </div>
