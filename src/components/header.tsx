@@ -42,7 +42,7 @@ export default function Header() {
     },
     {
       name: "Education",
-      href: "#",
+      href: "/education",
       current: pathname === "/education" ? true : false,
     },
     {
