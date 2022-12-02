@@ -16,6 +16,7 @@ export default function CallToAction({
         <p>Interested in collaborating or joining the team?</p>
         <Link
           href="/contact"
+          aria-label="Contact"
           className="flex mx-auto mt-8 w-32 rounded-xl justify-center items-center text-4xl sm:text-5xl p-2 bg-sky-700 shadow-white animate-pulse hover:bg-sky-900 hover:animate-none hover:shadow-whitelg"
         >
           <ArrowLongRight />

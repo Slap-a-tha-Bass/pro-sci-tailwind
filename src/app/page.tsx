@@ -52,6 +52,7 @@ export default function HomePage() {
         className="absolute sm:py-2 h-120 sm:h-full w-screen object-contain opacity-20 sm:opacity-10"
         src="/images/electric.png"
         alt="Electric blue"
+        priority
         width={1920}
         height={1080}
         placeholder="blur"
