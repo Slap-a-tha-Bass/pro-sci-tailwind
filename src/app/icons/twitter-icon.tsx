@@ -7,6 +7,7 @@ export default function TwitterIcon() {
       viewBox="0 0 256 256"
       xmlSpace="preserve"
       className="h-5 w-5 fill-current text-blue-500 hover:text-blue-600"
+      aria-label="Twitter"
     >
       <g transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
         <path
