@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <main className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-16 py-16">
+    <main className="container grid grid-cols-1 place-items-center gap-16 py-16">
       <Image
         src="/gallery/1.jpg"
         alt="Picture of the author"

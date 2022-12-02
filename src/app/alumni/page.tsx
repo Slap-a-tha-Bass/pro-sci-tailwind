@@ -1,6 +1,6 @@
 import TeamCard from "../../components/teamCard";
 
-export default function AlumniPage() {
+export default function Alumni() {
   return (
     <main className="bg-white container mx-auto flex flex-col py-4">
       <h3 className="font-bold text-center">Alumni</h3>

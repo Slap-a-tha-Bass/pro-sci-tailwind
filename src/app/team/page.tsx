@@ -1,6 +1,7 @@
-import TeamCard from '../../components/teamCard';
+import CallToAction from "../../components/callToAction";
+import TeamCard from "../../components/teamCard";
 
-export default function TeamPage() {
+export default function Team() {
   return (
     <main className="bg-white container mx-auto flex flex-col py-4">
       <h3 className="font-bold text-center">Team</h3>
@@ -45,7 +46,7 @@ export default function TeamPage() {
         Neuromuscular Physical Therapy with a focus on Neurological Rehabilitation. In my spare time, I like spending time doing outdoor activities with my kids, 
         hanging out with my friends, cooking new recipes, and swimming.`}
       />
-           <TeamCard
+      <TeamCard
         name="Matthew Farrow, PhD"
         title="Post-doc Trainee"
         image="/headshots/Matthew-headshot.png"
@@ -53,6 +54,7 @@ export default function TeamPage() {
         health in individuals with spinal cord injury. My current research interests focus on identifying exercise and nutritional interventions to improve health 
         outcomes for this population. Outside of the lab, I enjoy playing tennis, countryside walks, and watching soccer.`}
       />
+      <CallToAction marginTop="mt-8" marginBottom="mb-6" />
     </main>
   );
 }

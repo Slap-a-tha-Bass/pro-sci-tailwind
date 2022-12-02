@@ -1,4 +1,6 @@
-export default function AboutPage() {
+import CallToAction from "../../components/callToAction";
+
+export default function About() {
   return (
     <main className="bg-white container mx-auto flex flex-col">
       <div className="max-w-xl m-auto py-4 px-8">
@@ -87,6 +89,7 @@ export default function AboutPage() {
           ten-mile radius.
         </p>
       </div>
+      <CallToAction marginTop="mt-8" marginBottom="mb-8" />
     </main>
   );
 }

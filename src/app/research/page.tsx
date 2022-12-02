@@ -1,6 +1,7 @@
+import CallToAction from "../../components/callToAction";
 import ResearchCard from "../../components/researchCard";
 import { articles } from "../../lib/articles";
-export default async function PDFPage() {
+export default function Research() {
   return (
     <div>
       <div className="w-screen text-white">
@@ -17,6 +18,7 @@ export default async function PDFPage() {
           />
         ))}
       </div>
+      <CallToAction marginTop="mt-8" marginBottom="mb-4" />
     </div>
   );
 }

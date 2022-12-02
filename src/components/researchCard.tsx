@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ArrowUpRight from "../app/icons/arrow-up-right";
 
 interface ResearchCardProps {
   title: string;
@@ -45,14 +46,14 @@ export default function ResearchCard({
             href={link}
             target="_blank"
           >
-            View Article
+            View Article <ArrowUpRight />
           </Link>
           <Link
             className="flex mx-auto mt-8 w-32 rounded-xl justify-center items-center text-sm sm:text-md p-2 bg-sky-700 shadow-white hover:bg-sky-900 hover:shadow-whitelg"
             href={altLink}
             target="_blank"
           >
-            Pubmed Link
+            Pubmed Link <ArrowUpRight />
           </Link>
         </div>
       </div>

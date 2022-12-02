@@ -8,8 +8,8 @@ export default function Footer() {
       { name: "Team", href: "/team" },
       { name: "Alumni", href: "/alumni" },
       { name: "Gallery", href: "/gallery" },
-      { name: "Contact", href: "/contact" },
       { name: "Research", href: "/research" },
+      { name: "Education", href: "/education" },
       { name: "Careers", href: "#" },
       {
         name: "Belford Center",
@@ -19,6 +19,7 @@ export default function Footer() {
         name: "PM&R",
         href: "https://medicine.osu.edu/departments/physical-medicine-rehabilitation",
       },
+      { name: "Contact", href: "/contact" },
     ],
     social: [
       {

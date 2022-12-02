@@ -36,11 +36,6 @@ export default function Navbar() {
       current: pathname === "/gallery" ? true : false,
     },
     {
-      name: "Contact",
-      href: "/contact",
-      current: pathname === "/contact" ? true : false,
-    },
-    {
       name: "Research",
       href: "/research",
       current: pathname === "/research" ? true : false,
@@ -49,6 +44,11 @@ export default function Navbar() {
       name: "Education",
       href: "#",
       current: pathname === "/education" ? true : false,
+    },
+    {
+      name: "Contact",
+      href: "/contact",
+      current: pathname === "/contact" ? true : false,
     },
   ];
 

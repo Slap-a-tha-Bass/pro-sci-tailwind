@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import ArrowLongRight from "./icons/arrow-long-right";
+import CallToAction from "../components/callToAction";
 
 export default function HomePage() {
   const keyStr =
@@ -48,17 +47,7 @@ export default function HomePage() {
           </ul>
         </div>
       </div>
-      <div className="mx-auto -mt-8 bg-gray-900 pt-8 rounded-lg z-10 max-w-xs h-56 sm:max-w-lg sm:h-60">
-        <div className="flex flex-col text-xl sm:text-2xl text-white px-8">
-          <p>Interested in collaborating or joining the team?</p>
-          <Link
-            href="/contact"
-            className="flex mx-auto mt-8 w-32 rounded-xl justify-center items-center text-4xl sm:text-5xl p-2 bg-sky-700 shadow-white animate-pulse hover:bg-sky-900 hover:animate-none hover:shadow-whitelg"
-          >
-            <ArrowLongRight />
-          </Link>
-        </div>
-      </div>
+      <CallToAction marginTop="-mt-8" />
       <Image
         className="absolute sm:py-2 h-120 sm:h-full w-screen object-contain opacity-20 sm:opacity-10"
         src="/images/electric.png"
