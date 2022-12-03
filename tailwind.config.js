@@ -8,8 +8,10 @@ module.exports = {
         whitelg: "0 0 20px rgb(255, 255, 255)",
       },
       dropShadow: {
-        white: "0 0 10px rgba(255, 255, 255, 0.9)",
-        sky: "0 0 15px rgba(56, 189, 248, 0.9)",
+        white: "0 0 15px rgba(240, 240, 240, 0.7)",
+      },
+      fontFamily: {
+        header: ["Papyrus", "sans-serif"],
       },
     },
   },
