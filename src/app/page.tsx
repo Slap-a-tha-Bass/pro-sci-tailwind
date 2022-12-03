@@ -20,29 +20,29 @@ export default function HomePage() {
           <ul className="text-xl sm:text-3xl lg:text-4xl text-white leading-relaxed">
             <li>We are here to make</li>
             <li className="pt-2 ml-4">
-              <span className="text-sky-700">pro-</span>
-              gress in <span className="text-sky-700">SCI</span> research,
+              <span className="font-semibold">pro-</span>
+              gress in <span className="font-semibold">SCI</span> research,
             </li>
             <li className="pt-2 ml-4">
-              <span className="text-sky-700">pro-</span>pose good ideas,
+              <span className="font-semibold">pro-</span>pose good ideas,
             </li>
             <li className="pt-2 ml-4">
-              <span className="text-sky-700">pro-</span>vide solutions,
+              <span className="font-semibold">pro-</span>vide solutions,
             </li>
             <li className="pt-2 ml-4">
-              <span className="text-sky-700">pro-</span>mote impactful{" "}
-              <span className="text-sky-700">SCI</span>ence,
+              <span className="font-semibold">pro-</span>mote impactful{" "}
+              <span className="font-semibold">SCI</span>ence,
             </li>
             <li className="pt-2 ml-4">
-              <span className="text-sky-700">pro-</span>hibit misinformation,
+              <span className="font-semibold">pro-</span>hibit misinformation,
             </li>
             <li className="pt-2 ml-4">
-              <span className="text-sky-700">pro-</span>tect{" "}
-              <span className="text-sky-700">SCI</span>entist, and
+              <span className="font-semibold">pro-</span>tect{" "}
+              <span className="font-semibold">SCI</span>entist, and
             </li>
             <li className="pt-2 ml-4">
-              <span className="text-sky-700">pro-</span>long the lives of
-              individuals with <span className="text-sky-700">SCI</span>.
+              <span className="font-semibold">pro-</span>long the lives of
+              individuals with <span className="font-semibold">SCI</span>.
             </li>
           </ul>
         </div>

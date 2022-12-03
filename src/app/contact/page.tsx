@@ -30,7 +30,7 @@ export default function Contact() {
       <main className="overflow-hidden">
         <div className="py-4 flex justify-center">
           <div className="relative z-10 mx-8 sm:mx-auto max-w-7xl pl-4 pr-8 py-4 sm:px-6 rounded lg:px-8 bg-sky-900 text-white">
-            <h3 className="font-bold text-center">Get in touch</h3>
+            <h2 className="font-bold text-center">Get in touch</h2>
             <p className="mt-6 max-w-md mx-auto text-center">
               If you are interested in research opportunities or want to
               collaborate, please send us a message and we will get back to you
