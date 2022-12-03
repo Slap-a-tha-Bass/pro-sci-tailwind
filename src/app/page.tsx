@@ -20,29 +20,37 @@ export default function HomePage() {
           <ul className="text-xl sm:text-3xl lg:text-4xl text-white leading-relaxed">
             <li>We are here to make</li>
             <li className="pt-2 ml-4">
-              <span className="font-semibold">pro-</span>
-              gress in <span className="font-semibold">SCI</span> research,
+              <span className="font-semibold drop-shadow-sky">pro</span>
+              gress in{" "}
+              <span className="font-semibold drop-shadow-sky">SCI</span>{" "}
+              research,
             </li>
             <li className="pt-2 ml-4">
-              <span className="font-semibold">pro-</span>pose good ideas,
+              <span className="font-semibold drop-shadow-sky">pro</span>pose
+              good ideas,
             </li>
             <li className="pt-2 ml-4">
-              <span className="font-semibold">pro-</span>vide solutions,
+              <span className="font-semibold drop-shadow-sky">pro</span>vide
+              solutions,
             </li>
             <li className="pt-2 ml-4">
-              <span className="font-semibold">pro-</span>mote impactful{" "}
-              <span className="font-semibold">SCI</span>ence,
+              <span className="font-semibold drop-shadow-sky">pro</span>mote
+              impactful{" "}
+              <span className="font-semibold drop-shadow-sky">SCI</span>ence,
             </li>
             <li className="pt-2 ml-4">
-              <span className="font-semibold">pro-</span>hibit misinformation,
+              <span className="font-semibold drop-shadow-sky">pro</span>hibit
+              misinformation,
             </li>
             <li className="pt-2 ml-4">
-              <span className="font-semibold">pro-</span>tect{" "}
-              <span className="font-semibold">SCI</span>entist, and
+              <span className="font-semibold drop-shadow-sky">pro</span>tect{" "}
+              <span className="font-semibold drop-shadow-sky">SCI</span>
+              entist, and
             </li>
             <li className="pt-2 ml-4">
-              <span className="font-semibold">pro-</span>long the lives of
-              individuals with <span className="font-semibold">SCI</span>.
+              <span className="font-semibold drop-shadow-sky">pro</span>long the
+              lives of individuals with{" "}
+              <span className="font-semibold drop-shadow-sky">SCI</span>.
             </li>
           </ul>
         </div>

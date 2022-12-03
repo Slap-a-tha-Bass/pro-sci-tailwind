@@ -7,6 +7,10 @@ module.exports = {
         white: "0 0 10px rgb(255, 255, 255)",
         whitelg: "0 0 20px rgb(255, 255, 255)",
       },
+      dropShadow: {
+        white: "0 0 10px rgba(255, 255, 255, 0.9)",
+        sky: "0 0 15px rgba(56, 189, 248, 0.9)",
+      },
     },
   },
   plugins: [],
