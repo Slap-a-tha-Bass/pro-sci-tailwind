@@ -9,7 +9,7 @@ export default function Research() {
           <ResearchCard
             key={index}
             title={article.title}
-            src={`/images/articles/article-${index + 1}.jpg`}
+            src={`/images/articles/${article.pmid}.jpg`}
             altLink={article.altLink}
             link={article.link}
             authors={article.authors}

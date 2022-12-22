@@ -19,7 +19,7 @@ export default function CallToAction({
         <Link
           href="/contact"
           aria-label="Contact"
-          className="flex mx-auto mt-8 w-32 rounded-xl justify-center items-center text-lg p-2 bg-sky-700 shadow-white animate-pulse hover:bg-sky-900 hover:animate-none hover:shadow-whitelg"
+          className="flex mx-auto mt-8 w-32 rounded-xl justify-center items-center font-bold text-lg p-2 bg-slate-900 shadow-white animate-pulse hover:bg-slate-900 hover:animate-none hover:shadow-whitelg"
         >
           Contact <ArrowRight />
         </Link>
