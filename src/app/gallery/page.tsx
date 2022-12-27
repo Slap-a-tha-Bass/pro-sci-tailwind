@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <main className="container grid grid-cols-1 place-items-center gap-16 py-16">
+    <main className="container flex justify-center flex-wrap gap-16 py-16 mx-auto">
       <Image
         src="/gallery/1.jpg"
         alt="Picture of the author"
@@ -110,13 +110,6 @@ export default function Gallery() {
       />
       <Image
         src="/gallery/16.jpg"
-        alt="Picture of the author"
-        height={400}
-        width={300}
-        className="h-96 w-80 rounded"
-      />
-      <Image
-        src="/gallery/50.png"
         alt="Picture of the author"
         height={400}
         width={300}

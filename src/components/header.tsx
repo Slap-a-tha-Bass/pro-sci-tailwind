@@ -40,11 +40,11 @@ export default function Header() {
       href: "/research",
       current: pathname === "/research" ? true : false,
     },
-    {
-      name: "Education",
-      href: "/education",
-      current: pathname === "/education" ? true : false,
-    },
+    // {
+    //   name: "Education",
+    //   href: "/education",
+    //   current: pathname === "/education" ? true : false,
+    // },
     {
       name: "Contact",
       href: "/contact",

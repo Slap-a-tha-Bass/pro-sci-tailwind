@@ -9,18 +9,40 @@ export default function Team() {
         name="Ceren Yarar-Fisher, PhD"
         title="Principal Investigator"
         image="/headshots/Ceren-headshot.jpg"
-        bio={`Dr. Yarar-Fisher is an Associate Professor at the UAB Department of Physical Medicine and Rehabilitation in the UAB Heersink School of Medicine. 
-        Her translational research program focuses on understanding the pathophysiology of traumatic spinal cord injury (SCI) in the acute and chronic stages 
-        with the purpose of developing novel dietary and rehabilitation strategies to improve neuro-recovery, metabolism, and bowel function. Thus, her laboratory 
-        is currently developing and testing therapeutic diets and electrical stimulation programs to evaluate new ways to prevent neuronal death and promote recovery 
-        and function in the acute stages and improve body composition, gut microbiome composition, and skeletal muscle and metabolic health in the chronic stages of 
-        SCI. She has received several NIH and NIDILRR funding to support her investigations in SCI. She recently selected as one of the 10 Outstanding Young Persons 
-        of Turkey by Junior Chamber International for her work in Academic leadership and/or accomplishment. She served two years as Treasurer, Chair-Elect, and Chair 
-        in American Congress of Rehabilitation Medicine (ACRM) SCI-Special Interest Group, and is a member of ACRM, Academy of Spinal Cord Injury Professionals, American 
-        College of Sports Medicine and American Physiological Society. Dr. Yarar-Fisher has had the privilege of mentoring a wide variety of students and trainees, 
-        including 3 high school students, 5 medical students, 3 Physical Medicine and Rehabilitation residents, 10 physical therapy students, 2 doctoral students, 
-        and 1 post-doctoral trainee. She has also mentored 4 international visiting doctoral students and 2 visiting faculty from Hacettepe University/Turkey via Erasmus 
-        International Credit Mobility Program. Among her students, over 70% are racial ethnic minorities.`}
+        bio={`Dr. Yarar-Fisher is an Associate Professor and Vice Chair of Research at the Ohio State
+        University Department of Physical Medicine and Rehabilitation and Director of Clinical Research
+        at the Belford Center for Spinal Cord Injury. Her translational research program focuses on
+        understanding the pathophysiology of traumatic spinal cord injury in the acute and chronic
+        stages with the purpose of developing novel dietary and rehabilitation strategies to improve
+        neuro-recovery, metabolism, and bowel function. Thus, her laboratory is currently developing
+        and testing therapeutic diets and electrical stimulation programs to evaluate new ways to
+        prevent neuronal death, promote recovery and function in the acute stages and improve body
+        composition, gut microbiome composition, and skeletal muscle and metabolic health in the
+        chronic stages of SCI. She has received several NIH and NIDILRR funding to support her
+        investigations in SCI. She was selected as one of the 10 Outstanding Young Persons of Turkey
+        by Junior Chamber International for her work in Academic leadership and accomplishment. She
+        served two years as Treasurer, Chair-Elect, and Chair in American Congress of Rehabilitation
+        Medicine (ACRM) SCI-Special Interest Group, and is a member of ACRM, Academy of Spinal
+        Cord Injury Professionals, American College of Sports Medicine and American Physiological
+        Society.
+        Dr. Yarar-Fisher’s goal in mentoring is to have trainees leave her laboratory with the training
+        and integrity to become leaders in their chosen field. Her mentoring style is empowerment-
+        oriented, culturally sensitive, and excellence-driven. Dr. Yarar-Fisher intentionally created a
+        space within her laboratory that harnesses her team’s collective interests to build a strong team
+        with a common goal of contributing discoveries in SCI research and medicine and improving the
+        quality of life for those impacted by the injury while recognizing and celebrating her team’s
+        diverse backgrounds and identities. She believes science works best to produce novel insights
+        when influenced by diverse ideas from individuals working together. She has had the privilege
+        of mentoring a wide variety of students and trainees, including 3 high school students, 6 medical
+        students, 4 Physical Medicine and Rehabilitation residents, 12 physical therapy students, 2
+        doctoral students, and 1 post-doctoral trainee. She has also mentored 4 international visiting
+        doctoral students and 2 visiting faculty from Hacettepe University/Turkey via Erasmus
+        International Credit Mobility Program. 
+        Throughout her career, Dr. Yarar-Fisher has devoted time to support the critical peer-review
+        process, serving as an editorial board member of a prestigious SCI journal, an active
+        manuscript reviewer for several peer-reviewed journals, abstract reviewer for prestigious
+        organizations including the ACRM, and ad-hoc reviewer for the various NIH, DOD, NIDILRR
+        study sections.`}
       />
       <TeamCard
         name="Jia Li, PhD"
