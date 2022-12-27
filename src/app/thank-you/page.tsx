@@ -9,7 +9,7 @@ import Link from "next/link";
 const supportLinks = [
   {
     name: "Articles",
-    href: "#",
+    href: "/research",
     description:
       "See some of our public research articles and learn more about our work.",
     icon: NewspaperIcon,
