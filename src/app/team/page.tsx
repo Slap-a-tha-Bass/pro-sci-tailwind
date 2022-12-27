@@ -76,6 +76,20 @@ export default function Team() {
         health in individuals with spinal cord injury. My current research interests focus on identifying exercise and nutritional interventions to improve health 
         outcomes for this population. Outside of the lab, I enjoy playing tennis, countryside walks, and watching soccer.`}
       />
+      <TeamCard
+        name="Miles Grigorian"
+        title="Medical Student"
+        image="/headshots/Miles-headshot.jpg"
+        bio={`I am a 4th year post-doctoral scholar at Rehabilitation Medicine Laboratory. I am from China, and I earned my master's degree in Molecular Genetics 
+        from the University of Cincinnati and my PhD degree in Nutrition Sciences from Purdue University. During my PhD training, I was involved with clinical trials 
+        investigating several aspects of dietary components on metabolic health outcomes. I greatly appreciated the applicability of human clinical nutrition research. 
+        In the meanwhile, I became interested in exploring the underlying mechanisms for the development of cardio-metabolic diseases. I joined Dr. Yarar-Fisher's lab 
+        in 2017 to further expand my training in nutrition research and gain additional skillset in microbiome and metabolomics analyses. My current research projects 
+        include: 1) investigating the effects of a high-protein/low-carbohydrate diet on body composition, metabolic health, and gut microbiome in patients with 
+        long-standing spinal cord injury and 2) understanding the relationship between gut microbiome and glucose control in individuals with SCI supported by the
+         NIDILRR Mary Switzer Research fellowship and Craig Nielsen Foundation postdoctoral fellowship. I love spending time with my family, cooking cuisines from across 
+         the world, and traveling.`}
+      />
       <CallToAction marginTop="mt-8" marginBottom="mb-6" />
     </main>
   );
